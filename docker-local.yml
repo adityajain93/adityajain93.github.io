@@ -3,7 +3,7 @@ version: "3"
 services:
   jekyll_custom:
     build: .
-    image: aditya-local-docker
+    image: al-folio-local-docker
     container_name: al-folio-local-website
     command: bash -c "
       rm -f Gemfile.lock
