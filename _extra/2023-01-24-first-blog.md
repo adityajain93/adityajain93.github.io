@@ -1,23 +1,15 @@
 ---
 layout: distill
-title: a distill-style blog post
-description: an example of a distill-style blog post and main elements
+title: An introduction about something worthile in ML
+description: Summary of the Chapter 1 from XYZ book
 giscus_comments: true
-date: 2021-05-22
+date: 2023-01-24
 
 authors:
-  - name: Albert Einstein
+  - name: Aditya Jain
     url: "https://en.wikipedia.org/wiki/Albert_Einstein"
     affiliations:
-      name: IAS, Princeton
-  - name: Boris Podolsky
-    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
-    affiliations:
-      name: IAS, Princeton
-  - name: Nathan Rosen
-    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
-    affiliations:
-      name: IAS, Princeton
+      name: Meta Platforms, University of Texas at Austin
 
 bibliography: 2018-12-22-distill.bib
 
@@ -28,6 +20,8 @@ bibliography: 2018-12-22-distill.bib
 #   - we may want to automate TOC generation in the future using
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
+  - name: Introduction
+
   - name: Equations
     # if a section has subsections, you can add them as follows:
     # subsections:
@@ -59,7 +53,7 @@ _styles: >
   }
 
 ---
-
+## Introduction
 ## Equations
 
 This theme supports rendering beautiful math in inline and display modes using [MathJax 3](https://www.mathjax.org/) engine.
